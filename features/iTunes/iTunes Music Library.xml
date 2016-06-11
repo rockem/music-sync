@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version='1.0'>
+  <dict>
+    <key>Major Version</key>
+    <integer>1</integer>
+    <key>Minor Version</key>
+    <integer>1</integer>
+    <key>Tracks</key>
+    <dict>
+      <key>324</key>
+      <dict>
+        <key>Track ID</key>
+        <integer>324</integer>
+        <key>Location</key>
+        <string>file://music/Best Coast - The Only Place.mp3</string>
+      </dict>
+      <key>456</key>
+      <dict>
+        <key>Track ID</key>
+        <integer>456</integer>
+        <key>Location</key>
+        <string>file://music/Death Grips - Get Got.mp3</string>
+      </dict>
+    </dict>
+    <key>Playlists</key>
+    <array>
+      <dict>
+        <key>Playlist ID</key>
+        <integer>34</integer>
+        <key>Name</key>
+        <string>kuku</string>
+        <key>Playlist Items</key>
+        <array>
+          <dict>
+            <key>Track ID</key>
+            <integer>324</integer>
+          </dict>
+          <dict>
+            <key>Track ID</key>
+            <integer>456</integer>
+          </dict>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>
