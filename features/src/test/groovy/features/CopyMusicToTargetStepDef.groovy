@@ -4,7 +4,7 @@ import features.support.Playlist
 import features.support.Song
 import features.support.iTunesLibraryXmlBuilder
 import features.support.iTunesXmlFileCreator
-import org.rockem.ms.MusicSync
+import org.rockem.ms.Main
 
 this.metaClass.mixin(cucumber.api.groovy.Hooks)
 this.metaClass.mixin(cucumber.api.groovy.EN)
@@ -22,7 +22,7 @@ Given(~/^I have a playlist defined$/) { ->
 }
 
 When(~/^I execute$/) { ->
-    new MusicSync().main((String[])[ITUNES_PATH, TARGET_PATH, PLAYLIST])
+    new Main().main((String[])[ITUNES_PATH, TARGET_PATH, PLAYLIST])
 }
 
 Then(~/^the files from the playlist should be copies to target$/) { ->

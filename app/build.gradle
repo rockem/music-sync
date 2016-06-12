@@ -7,4 +7,6 @@ repositories {
 
 dependencies {
     compile 'org.scala-lang:scala-library:2.11.8'
+    compile 'com.github.scopt:scopt_2.10:3.4.0'
+
 }
